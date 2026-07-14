@@ -1,0 +1,175 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f4f7fc;
+  color: #222;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Images */
+
+img {
+  max-width: 100%;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1976d2;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1565c0;
+}
+
+/* Navbar */
+
+.MuiAppBar-root {
+  background: white !important;
+  color: black !important;
+}
+
+/* Sidebar */
+
+.sidebar {
+  background: #1f2937;
+  color: white;
+  min-height: 100vh;
+}
+
+/* Dashboard */
+
+.dashboard-container {
+  padding: 25px;
+}
+
+/* Cards */
+
+.MuiPaper-root {
+  border-radius: 15px !important;
+}
+
+/* Form */
+
+form {
+  width: 100%;
+}
+
+.MuiTextField-root {
+  margin-bottom: 16px !important;
+}
+
+/* Button */
+
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Chat */
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-message {
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.chat-user {
+  background: #1976d2;
+  color: white;
+}
+
+.chat-ai {
+  background: #eceff1;
+}
+
+.chat-input {
+  padding: 15px;
+  border-top: 1px solid #ddd;
+}
+
+/* Avatar */
+
+.MuiAvatar-root {
+  font-weight: bold;
+}
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+  .dashboard-container {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .MuiGrid-item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .MuiToolbar-root {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .MuiPaper-root {
+    margin-bottom: 20px;
+  }
+
+  .dashboard-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .MuiTypography-h5 {
+    font-size: 22px !important;
+  }
+
+  .MuiButton-root {
+    width: 100%;
+  }
+
+  .MuiAvatar-root {
+    width: 38px !important;
+    height: 38px !important;
+  }
+}
