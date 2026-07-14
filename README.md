@@ -259,8 +259,7 @@ Include screenshots of:
 
 B.Tech Computer Science & Engineering
 
-AI-First CRM HCP Assignment
+AI-First CRM HCP 
 
 ---
 
-# 🙏 Thank You
